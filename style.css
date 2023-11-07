@@ -1,0 +1,203 @@
+body,h1,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background:url(./background.jpg) #252525;
+    font-family: sans-serif;
+    background-size: cover;
+}
+ 
+.sayfa{
+    width: 1600px;
+    margin:50px auto;
+}
+ 
+#baslik{
+    float: left;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+ 
+#menu{
+    float: right;
+    list-style: none;
+    margin-top: 1em;
+}
+ 
+#menu li{
+    float: left;
+    
+}
+ 
+#menu li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 20px;
+}
+ 
+#menu a:hover{
+    background: #a4a3a3;
+    border-radius: 15px;
+}
+ 
+.orta{
+    margin-top: 15px;
+    background: #333;
+ 
+}
+ 
+.orta-sol{
+    float: left;
+    width: 1100px;
+}
+ 
+ 
+.orta-sag{
+    float: left;
+    margin: 15px;
+    width: 470px;
+    color: #bbb;
+}
+
+.orta-hakkımda {
+    float: left;
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+    width: 1400px;
+    color: #bbb;
+}
+.h1-hakkımda {
+    font-size: 72px;
+    text-align: center;
+}
+.h1-çalışmalarım {
+    font-size: 72px;
+    text-align: center;
+    padding-top: 15%;
+
+}
+.youtubeortala {
+    display: flex;
+    justify-content: center;
+}
+ 
+.alt{
+    text-align: center;
+    color: #fff;
+}
+.alt a{
+     color: #fff;
+}
+ 
+.temizle{
+    clear: both;
+}
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(40, 40, 41);
+    padding: 50px 0px;
+    align-items: center;
+    gap: 30px;
+
+}
+
+footer .footer-sol ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer .footer-sol ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+footer .footer-sag ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+
+}
+
+.cubuk {
+    width: 5px;
+    height: 200px;
+    background-color: white;
+
+}
+.iletisim-form {
+    width: 400px;
+    background-color: #777676;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.iletisim-form input[type="text"], 
+.iletisim-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+
+.iletisim-form h2 {
+    color: white;
+}
+
+.iletisim-form label {
+    color: white;
+}
+
+.iletisim-form textarea {
+    height: 100px;
+    
+}
+
+.iletisim-form input[type="submit"] {
+    width: 100%;
+    background-color: #474747;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.iletisim-form input[type="submit"]:hover {
+    background-color: #282928;
+}
+
+.veya {
+    position: absolute;
+    top: 87%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.veya h3{
+    padding-left: 100px;
+}
+.veya a {
+    padding-left: 200px;
+}
